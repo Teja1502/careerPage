@@ -1,0 +1,200 @@
+body {
+    margin: 0;
+}
+header .container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 86px;
+    box-shadow: 0px 0px 5px #000000;
+}
+
+header .profile-icon img{
+    width: 30px;
+    margin-right: 2em;
+}
+
+header nav .nav-list {
+    display: flex;
+    list-style: none;
+}
+
+header nav .nav-list .list-items {
+    margin-right: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+header nav .nav-list .list-items a{
+    text-decoration: none;
+    color: grey;
+}
+
+header nav .nav-list .list-items a:hover {
+    color: aqua;
+}
+
+header .container .logo {
+    margin-right: auto;
+    margin-left: 2em;
+}
+
+header .container .logo h1{
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 0px;
+}
+
+header .container .logo h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: #1f87b1;
+    margin-top: 0px;
+}
+
+.image-post .image-background img {
+    height: 150px;
+    width: 100%;
+}
+
+.image-post {
+    position: relative;
+}
+
+.image-post .container {
+    position: absolute;
+    top: 0%;
+    padding: 10px;
+    display: flex;
+    color: grey;
+}
+
+.image-post .container h4 {
+    font-size: 45px;
+    font-weight: bold;
+    padding-left: 15px;
+    color: #1f87b1;
+    text-align: center;
+}
+
+.body-content {
+    width: 100%;
+    padding: 10px 0 0 0;
+}
+
+.body-content .inner-box {
+    margin: 0 auto;
+}
+
+.body-content .inner-box .container {
+    padding: 20px;
+}
+
+.body-content .inner-box .container .col-one {
+    width: 48%;
+    float: left;
+    margin-left: 50px;
+}
+
+.body-content .inner-box .container .col-one h1 {
+    font-size: 24px;
+    color: #2457ab;
+    border-bottom: 1px dashed #d1d1d1;
+    text-transform: uppercase;
+    margin: 0 0 20px 0;
+}
+
+.body-content .inner-box .container .col-one p {
+    margin: 0px 0 12px 0;
+    padding: 0;
+    line-height: 24px;
+    font-size: 16px;
+    color: #757575;
+}
+
+.body-content .inner-box .container .col-one ul {
+    margin: 10px 0 10px 10px;
+    padding: 0;
+    list-style: none;
+}
+
+.body-content .inner-box .container .col-one ul li {
+    margin-bottom: 12px;
+    background: url(../images/arrow.gif) no-repeat 0 5px;
+    padding-left: 12px;
+    color: #757575;
+}
+
+.body-content .inner-box .container .col-one h3 {
+    font-size: 18px;
+    color: #2457ab;
+    padding: 0 0 5px 0;
+}
+
+.body-content .inner-box .container .col-one .contact {
+    padding: 0;
+    margin: 0;
+}
+
+.body-content .inner-box .container .col-one .contact p {
+    margin-bottom: 0.2em;
+}
+
+.body-content .inner-box .container .col-one .contact ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.body-content .inner-box .container .col-one .contact ul li {
+    width: 55px;
+    font-weight: 600;
+    text-align: left;
+    margin: 0;
+    padding: 0px 0px 5px 0;
+    float: left;
+    background-image: none !important;
+    color: #666666;
+}
+
+.body-content .inner-box .container .col-one .contact .clear{
+    clear: both;
+    line-height: 0;
+    font-size: 0;
+}
+
+.body-content .inner-box .container .col-two {
+    width: 48%;
+    float: right;
+}
+
+.body-content .inner-box .container .col-two h1 {
+    font-size: 24px;
+    color: #2457ab;
+    border-bottom: 1px dashed #d1d1d1;
+    text-transform: uppercase;
+    margin: 0 0 20px 0;
+}
+
+.body-content .inner-box .container .col-two .info-button {
+    background: url(../images/plus-sign.png) no-repeat scroll right 9px transparent;
+    border: 1px solid #E3E3E3;
+    color: #040404;
+    cursor: pointer;
+    float: left;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 30px;
+    margin: 5px 0 0 0;
+    padding: 0 0 0 10px;
+    width: 430px;
+}
+
+.body-content .inner-box .container .col-two .info-button a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #2457ab;
+}
