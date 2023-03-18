@@ -198,3 +198,173 @@ header .container .logo h3{
     font-size: 15px;
     color: #2457ab;
 }
+
+.box-container {
+    clear: left;
+    margin-top: 27px;
+    background-color: #292626;
+}
+
+.box-container .container {
+    
+    margin: 0px 25px;
+    padding: 0px 10px;
+}
+
+.box-container .container .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-container .container .row .col-con-one {
+    padding: 10px;
+}
+
+.box-container .container .row .col-con-one h4 {
+    font-size: 21px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+}
+
+.box-container .container .row .col-con-one .hor-line {
+    width: 8%;
+    padding-bottom: 8px;
+}
+
+.box-container .container .row .col-con-one a {
+    text-decoration: none;
+}
+
+.box-container .container .row .col-con-one a strong {
+    color: white;
+    font-size: 18px;
+}
+
+.box-container .container .row .col-con-one .subtext {
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+.box-container .container .row .col-con-one .subtext span {
+    color: grey;
+}
+
+.box-container .container .row .col-con-two {
+    padding: 10px;
+}
+
+.box-container .container .row .col-con-two h4{
+    font-size: 21px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+}
+
+.box-container .container .row .col-con-two .hor-line {
+    width: 25%;
+    padding-bottom: 8px;
+}
+
+.box-container .container .row .col-con-two ul {
+    padding-left: 0px;
+    list-style-type: none;
+    margin-top: 0px;
+}
+
+.box-container .container .row .col-con-two ul li {
+    color: white;
+    padding-bottom: 5px;
+}
+
+.box-container .container .row .col-con-three {
+    padding: 10px;
+}
+
+.box-container .container .row .col-con-three h4{
+    font-size: 21px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+}
+
+.box-container .container .row .col-con-three h5 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
+    font-size: 15px;
+    padding-bottom: 10px;
+    padding-top: 7px;
+}
+
+.box-container .container .row .col-con-three .hor-line {
+    padding-bottom: 10px;
+    width: 20%;
+}
+
+.box-container .container .row .col-con-three a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.box-container .container .row .col-con-three #space {
+    margin-bottom: 10px;
+}
+
+.box-container .container .row .col-con-four {
+    padding: 10px;
+}
+
+.box-container .container .row .col-con-four h4{
+    font-size: 21px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+}
+
+.box-container .container .row .col-con-four h3 {
+    color: white;
+    margin-bottom: 0px;
+}
+
+.box-container .container .row .col-con-four p {
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 16px;
+}
+
+.box-container .container .row .col-con-four .hor-line {
+    padding-bottom: 10px;
+    width: 20%;
+}
+
+.box-container .container .row .col-con-four button {
+    margin-top: 25px;
+    padding: 9px;
+    border-radius: 3px;
+    border: 1px solid #1f87b1;
+    background-color: #1f87b1;
+    color: white;
+}
+
+.bottom-bar .container {
+    padding: 25px 0px;
+    background-color: grey;
+    opacity: 0.7;
+}
+
+.bottom-bar .container p{
+    color: black;
+    font-size: 18px;
+    padding-left: 20px;
+}
