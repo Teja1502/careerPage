@@ -359,13 +359,12 @@ header .container .logo h3{
 
 .bottom-bar .container {
     padding-top: 25px;
-    background-color: grey;
-    opacity: 0.7;
+    background-color: #312f2f;
     padding-bottom: 0px;
 }
 
 .bottom-bar .container p{
-    color: black;
+    color: white;
     font-size: 18px;
     padding-left: 20px;
     padding-bottom: 10px;
