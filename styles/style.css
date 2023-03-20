@@ -358,13 +358,63 @@ header .container .logo h3{
 }
 
 .bottom-bar .container {
-    padding: 25px 0px;
+    padding-top: 25px;
     background-color: grey;
     opacity: 0.7;
+    padding-bottom: 0px;
 }
 
 .bottom-bar .container p{
     color: black;
     font-size: 18px;
     padding-left: 20px;
+    padding-bottom: 10px;
+    margin-top: 5px;
 }
+
+.bottom-bar .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-bar .container .icon-buttons ul{
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+}
+
+.bottom-bar .container .icon-buttons ul li {
+    margin-right: 15px;
+    height: 30px;
+    width: 40px;
+    border-radius: 20px;
+    padding-top: 10px;
+}
+
+.bottom-bar .container .icon-buttons ul li.facebook-icon {
+    background-color: #4f7dd4;
+}
+
+.bottom-bar .container .icon-buttons ul li.twitter-icon {
+    background-color: #5bceff;
+}
+
+.bottom-bar .container .icon-buttons ul li.linkedin-icon {
+    background-color: #21a6d8;
+}
+
+.bottom-bar .container .icon-buttons ul li.youtube-icon {
+    background-color: #c4302b;
+}
+
+.bottom-bar .container .icon-buttons ul li.instagram-icon {
+    background-color: #e1306cc4;
+}
+
+
+.bottom-bar .container .icon-buttons ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
